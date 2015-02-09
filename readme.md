@@ -1,12 +1,13 @@
-#Die Struktur der Quellenverzeichnisse
+# TODO
 
-Zunächst braucht man natürlich einen passenden Verzeichnisbaum für die Quelldateien. Man kann diesen in der Datei /etc/rpmrc festlegen, üblicherweise wird hier einfach /usr/src verwendet.
+# Fedora21 (Java 1.8)
+python 2.7.8 current fedora package
+run docker fedora:rawhid
+download aurora incubator current
+adjust source for usage of java 1.8 gradl
+make all valid for rpm build with restricted user
+build it export builded package to /target or maybe volume bind to RPMS or build dir
 
-Eventuell müssen die folgenden Verzeichnisse angelegt werden, um einen Verzeichnisbaum für das Übersetzen zu erstellen:
-~~~
-    BUILD ist das Verzeichnis, in dem die Übersetzung durch den RPM stattfindet. Man muß seine Testübersetzungen nicht in diesem speziellen Verzeichnis durchführen, aber hier ist es, wo der RPM seine Übersetzungen durchführt.
-    SOURCES hier sollten alle tar-Archive der originalen Quellen und die Patches stehen. Hier sucht der RPM per Default nach den Quelldateien.
-    SPECS hier gehören die Spec-Dateien hin.
-    RPMS das Verzeichnis für die fertig übersetzten rpm's.
-    SRPMS das Verzeichnis für die Quell-rpm's.
-~~~
+# CentOS7 (Java 1.7 + 1.8)
+python27 package aviable
+

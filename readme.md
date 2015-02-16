@@ -1,4 +1,8 @@
-# TODO
+# Moved Permently to
+
+[https://github.com/DIREKTSPEED-LTD/aurora-fedora](https://github.com/DIREKTSPEED-LTD/aurora-fedora)
+
+
 
 # Fedora21 (Java 1.8)
 python 2.7.8 current fedora package

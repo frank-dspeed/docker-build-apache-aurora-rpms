@@ -1,5 +1,5 @@
 # aurora-fedora
-Fedora packaging for Apache Aurora
+Fedora packaging for Apache Aurora now offical [@apache/aurora-packaging](https://github.com/apache/aurora-packaging)
 
 
 

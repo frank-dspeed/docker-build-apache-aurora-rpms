@@ -1,0 +1,27 @@
+From 1cb7c6eac69af255ab58451cc4e8c2003251bac0 Mon Sep 17 00:00:00 2001
+From: Frank Lemanschik <frank@dspeed.eu>
+Date: Mon, 16 Feb 2015 13:11:27 +0100
+Subject: [PATCH] bumped java requirments
+
+---
+ build.gradle | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/build.gradle b/build.gradle
+index 158d47a..6bf8f86 100644
+--- a/build.gradle
++++ b/build.gradle
+@@ -42,8 +42,8 @@ allprojects {
+   }
+ 
+   compileJava {
+-    sourceCompatibility = 1.7
+-    targetCompatibility = 1.7
++    sourceCompatibility = 1.8
++    targetCompatibility = 1.8
+   }
+ 
+   group 'org.apache.aurora'
+-- 
+1.9.1
+
